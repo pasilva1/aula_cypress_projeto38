@@ -1,0 +1,19 @@
+node --version
+cd caminho\da\sua\pasta
+npm init -y
+npm install cypress --save-dev
+npx cypress open ( TESTA EM MODO GRAFICO)
+npx cypress run ( TESTA EM CLI )
+
+npm install mochawesome@7.1.3 --save-dev
+
+npx cypress run --reporter mochawesome
+
+RODA UM ÚNICO SPEC 
+npx cypress run --spec cypress/e2e/{NOME_DO_SEU_SPEC}
+
+
+
+
+
+

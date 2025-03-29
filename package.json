@@ -1,0 +1,19 @@
+{
+  "name": "cypress_aula_pos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "test": "cypress run",
+  "test:login": "cypress run --spec cypress/e2e/login_spec.cy.js",
+  "test:report": "cypress run --reporter mochawesome --reporter-options reportDir=reports,overwrite=false,html=true,json=true",
+  "test:video": "cypress run --video true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.2.1",
+    "mochawesome": "^7.1.3"
+  }
+}
