@@ -1,1 +1,3 @@
-# aula_cypress_projeto38
+# Cypress - Aula Pós
+
+Este repositório contém testes automatizados do projeto Cypress.
